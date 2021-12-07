@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <button href="search_img.html">Зображення</button>
+            <button href="advanced_search.html">Розширений пошук</button>
+        </nav>
+        <header class="AS_head">
+            <h1 id="Adv_search_head">Розширений пошук</h1>
+           
+        </header>
+        <div id="adv_search_div">
+            <span id="span1">Знайти сторінки, що <br>містять...</span>
+            <form action="https://www.google.com/advanced_search">
+                <ul>
+                    <li>усі ці слова: <input id="one" type="text" name="as_q"></li>
+                    <li>точне слово або фразу: <input id="two" type="text" name="as_epq"></li>
+                    <li>будь-яке з цих слів: <input id="three" type="text" name="as_oq"></li>
+                    <li>жодне з цих слів: <input id="four" type="text" name="as_eq"></li>
+                </ul>
+                <input id="Adv_search_button" type="submit" value="Розширений пошук">
+            </form>
+            
+        </div>
+        
+
+    </body>
+</html>

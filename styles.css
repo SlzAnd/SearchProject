@@ -1,0 +1,74 @@
+.AS_head {
+    border-bottom: gray 0.5px solid;
+    padding: 33px;
+}
+.body {
+    font-family: arial,sans-serif;
+}
+#Adv_search_head {
+    color: #d93025;
+    margin-left: 10px;
+    font-family: arial,sans-serif;
+    font-size: 25px;
+    font-weight: inherit;
+    font-style: inherit;
+    
+}
+#Google_search_link {
+    float: right;
+    }
+img {
+    width: 100px;
+    height: 60px;
+    
+}
+li {
+    list-style-type: none;
+    margin-bottom: 22px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#one {
+    margin-left: 83px;
+}
+#two {
+    margin-left: 2px;
+}
+#three {
+    margin-left: 32px;
+}
+#four {
+    margin-left: 49px;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#Adv_search_button {
+    margin-left: 35%;
+
+}
+
+#span1 {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 37px;
+    
+}
+
+
+.mane {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+nav {
+    float: right;
+}
