@@ -1,52 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My settings */
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 17px;
+}
+
+nav {
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+        
+}
+
+.nav_buttons {
+    display: inline-block;
+    padding: 2px 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.nav_buttons:hover {
+    text-decoration: underline;
+}
+
+/* Mane page */
+
+.mane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 560px;
+    height: 24px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+ input[type="submit"] {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+ }
+
+/* Advanced_search page */
+
 .AS_head {
     border-bottom: gray 0.5px solid;
     padding: 33px;
-}
-.body {
-    font-family: arial,sans-serif;
-}
-#Adv_search_head {
     color: #d93025;
     margin-left: 10px;
     font-family: arial,sans-serif;
     font-size: 25px;
     font-weight: inherit;
     font-style: inherit;
-    
 }
-#Google_search_link {
-    float: right;
-    }
-img {
-    width: 100px;
-    height: 60px;
-    
-}
+
 li {
     list-style-type: none;
     margin-bottom: 22px;
     font-family: sans-serif;
     font-size: 15px;
 }
+
 #one {
     margin-left: 83px;
 }
+
 #two {
     margin-left: 2px;
 }
+
 #three {
     margin-left: 32px;
 }
+
 #four {
     margin-left: 49px;
 }
-h4 {
-    font-family: sans-serif;
-    font-size: 15px;
-}
+
 #Adv_search_button {
     margin-left: 35%;
+}
 
+#adv_search_div {
+    padding-left: 25px;
 }
 
 #span1 {
@@ -56,19 +160,7 @@ h4 {
     vertical-align: baseline;
     text-decoration: none;
     vertical-align: middle;
-    margin-left: 37px;
-    
+    margin-left: 37px; 
 }
 
 
-.mane {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
-nav {
-    float: right;
-}

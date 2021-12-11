@@ -6,16 +6,15 @@
     </head>
     <body>
         <nav>
-            <button href="search_img.html">Зображення</button>
-            <button href="advanced_search.html">Розширений пошук</button>
+            <a class="nav_buttons" href="index.html">Пошук Google</a>
+            <a class="nav_buttons" href="search_img.html">Зображення</a>
         </nav>
         <header class="AS_head">
-            <h1 id="Adv_search_head">Розширений пошук</h1>
-           
+            <h1>Розширений пошук</h1>
         </header>
         <div id="adv_search_div">
             <span id="span1">Знайти сторінки, що <br>містять...</span>
-            <form action="https://www.google.com/advanced_search">
+            <form id="adv_form" action="https://www.google.com/advanced_search">
                 <ul>
                     <li>усі ці слова: <input id="one" type="text" name="as_q"></li>
                     <li>точне слово або фразу: <input id="two" type="text" name="as_epq"></li>
